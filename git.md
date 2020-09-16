@@ -15,6 +15,9 @@ tags: ""
     -   [Status](#viewing-status)
     -   [Commiting](#committing-staged-files)
     -   [Skipping staging](#skipping-staging-area)
+    -   [Removing files](#removing-files)
+    -   [Viewing Staged or Unstaged Changes](#viewing-staged-or-unstaged-changes)
+    -   [Viewing History](#viewing-history)
 
 ## Configuring git
 
@@ -66,4 +69,25 @@ git commit              # Opens a file where you can put in change description
 
 ```sh
 git commit -am "message"
+```
+### Removing files
+
+```sh
+git rm file1.js  # Removes from working directory and staging area
+git rm --cached file.js  # Removes only from staging area
+```
+
+### Viewing staged or unstaged changes
+
+```sh
+git diff              # Shows unstaged changes
+git diff --staged     # Shows staged changes
+```
+
+### Viewing History
+
+```sh
+git log                # Full history
+git log --oneline      # Sumary in one line for each commit
+git log --reverse      # Lists the commit from oldest to newest
 ```
