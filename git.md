@@ -7,14 +7,14 @@ tags: ""
 
 ## Table of contents
 
--   [Git configs](#Configuring-git)
--   [Getting Help](#Help)
--   [Creating Snapshots](#Creating-snapshots)
-    -   [Initializing repo](#Initializing-a-repository)
-    -   [Staging](#Staging-files)
-    -   [Status](#Viewing-status)
-    -   [Commiting](#Committing-staged-files)
-    -   [Skipping staging](#Skipping-staging-area)
+-   [Git configs](#configuring-git)
+-   [Getting Help](#help)
+-   [Creating Snapshots](#creating-snapshots)
+    -   [Initializing repo](#initializing-a-repository)
+    -   [Staging](#staging-files)
+    -   [Status](#viewing-status)
+    -   [Commiting](#committing-staged-files)
+    -   [Skipping staging](#skipping-staging-area)
 
 ## Configuring git
 
