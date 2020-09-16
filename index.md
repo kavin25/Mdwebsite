@@ -1,2 +1,2 @@
 ## Reference Notes
-- [Git](https://kavin25.github.io/MDwebsite/git)
+- [Git](https://kavin25.github.io/Mdwebsite/git)
